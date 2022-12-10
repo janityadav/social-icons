@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: linear-gradient(360deg, #ffc4c4 49%, #ee6983 48%);
+}
+a{
+	text-decoration: none;
+}
+.social-wrapper .social-button .icon i{
+  color: #850E35;
+}
+.social-wrapper .social-button {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #FFC4C4;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px #000;
+  transition: all 0.3s ease-out;
+}
+.social-wrapper .social-button:hover {
+  width: 200px;
+}
+
+.social-wrapper .social-button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.social-wrapper .social-button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.social-wrapper .social-button:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+.social-wrapper .social-button:nth-child(3):hover .icon{
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,
+	#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+.social-wrapper .social-button:nth-child(4):hover .icon{
+  background: #333;
+}
+.social-wrapper .social-button:nth-child(5):hover .icon{
+  background: #ff0000;
+}
+.social-wrapper .social-button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.social-wrapper .social-button:hover .icon i{
+  color: #fff;
+}
+.social-wrapper .social-button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.social-wrapper .social-button:nth-child(1) span{
+  color: #4267B2;
+}
+.social-wrapper .social-button:nth-child(2) span{
+  color: #1DA1F2;
+}
+.social-wrapper .social-button:nth-child(3) span{
+  color: #E1306C;
+}
+.social-wrapper .social-button:nth-child(4) span{
+  color: #333;
+}
+.social-wrapper .social-button:nth-child(5) span{
+  color: #ff0000;
+}
